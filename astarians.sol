@@ -1237,7 +1237,7 @@ contract Astarian is ERC721Enumerable, Ownable {
 
   string baseURI;
   string public baseExtension = ".json";
-  uint256 public cost = 600 ether;
+  uint256 public cost = 450 ether;
   uint256 public maxSupply = 5000;
   uint256 public maxMintAmount = 600;
   bool public paused = true;
